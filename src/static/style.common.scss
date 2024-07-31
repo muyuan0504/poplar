@@ -1,3 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-contain {
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 24px 0;
+    background: #f2f3f5;
+}
+
 .flex-box {
     display: flex;
     align-items: center;

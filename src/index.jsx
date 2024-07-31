@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { HashRouter, useRoutes } from 'react-router-dom'
 import routes from '@/route/index'
+import '@/static/common.css'
 import '@/static/style.common'
 
 const RootEle = () => {

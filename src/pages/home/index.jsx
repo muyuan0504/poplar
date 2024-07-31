@@ -7,11 +7,12 @@ const HomeIndex = () => {
         return navigate(route || 'error')
     }
     return (
-        <>
-            <div onClick={() => handleNav('upload')}>跳转到上传页面</div>
+        <div className='page-contain'>
             <div className='flex-box'>home index</div>
+            <div onClick={() => handleNav('editor')}>跳转到富文本页面</div>
+            <div onClick={() => handleNav('upload')}>跳转到上传页面</div>
             <Outlet />
-        </>
+        </div>
     )
 }
 
